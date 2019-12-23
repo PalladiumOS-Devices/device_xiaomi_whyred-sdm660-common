@@ -140,6 +140,9 @@ TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
+# Power
+TARGET_RPM_SYSTEM_STAT := /d/rpm_stats
+
 # SELinux
 SELINUX_IGNORE_NEVERALLOWS := true
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
