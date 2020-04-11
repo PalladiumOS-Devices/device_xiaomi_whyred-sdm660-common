@@ -274,3 +274,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Seamless transfer
 PRODUCT_PROPERTY_OVERRIDES += \
   sys.fflag.override.settings_seamless_transfer=true
+
+# USB debugging at boot
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp,adb \
+    ro.adb.secure=0 \
+    ro.secure=0 \
+    ro.debuggable=1
