@@ -18,4 +18,20 @@
     <!-- Smart Charging -->
     <bool name="config_supportSmartCharging">true</bool>
 
+    <!-- Whether to use the mask for the quicksettings icons-->
+    <bool name="config_useMaskForQs">true</bool>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">6</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
+
+    <!-- Enable face auth only when swiping security view -->
+    <bool name="config_faceAuthOnlyOnSecurityView">false</bool>
+
+    <!-- The CPU temperature sensor path, defaults to empty -->
+    <string name="config_cpuTempSensor" translatable="false">/sys/class/thermal/thermal_zone4/temp</string>
+
+    <!-- The CPU temperature divider, if needed -->
+    <integer name="config_cpuTempDivider" translatable="false">100</integer>
+
 </resources>
