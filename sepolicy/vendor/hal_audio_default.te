@@ -11,3 +11,4 @@ allow hal_audio_default hal_dms_default:binder { transfer call };
 allow hal_audio_default hal_dms_hwservice:hwservice_manager find;
 
 allow hal_audio_default sysfs_info:file { open getattr read };
+allow hal_audio_default default_prop:file { open read getattr };
