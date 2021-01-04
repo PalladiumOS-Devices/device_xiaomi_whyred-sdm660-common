@@ -455,3 +455,9 @@ PRODUCT_PACKAGES += \
     init.spectrum.sh \
     init.camera.rc \
     init.camera.sh
+
+# GvisualMod
+PRODUCT_PACKAGES += \
+    G-UIRadiusAndroid \
+    G-UIRadiusSystemUI \
+    G-UIStatusbarHeight
