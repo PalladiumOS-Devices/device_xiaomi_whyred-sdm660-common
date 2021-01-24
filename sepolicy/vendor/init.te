@@ -10,3 +10,12 @@ allow init vendor_file:file { execute };
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;
+
+# SELinux Switch
+allow init su:process { noatsecure  rlimitinh  siginh  transition };
+
+# Boost
+allow init vendor_file:file { execute execute_no_trans };
+
+# USB Fastcharger
+allow init sysfs_fcharge:file { write };

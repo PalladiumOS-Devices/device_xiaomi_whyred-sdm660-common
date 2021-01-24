@@ -253,3 +253,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
    ro.config.dha_th_rate=2.3 \
    ro.config.sdha_apps_bg_min=8 \
    ro.config.sdha_apps_bg_max=64
+
+# XiaomiParts
+touchboost.support=1
+cpuboost.support=1
+gpuboost.support=1
+tcp.support=1
+lkm.support=1
+cpucore.support=1
+spectrum.support=1
+persist.spectrum.kernel=-WALKERZ-EDITION--STRIX-EAS
