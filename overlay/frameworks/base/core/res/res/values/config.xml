@@ -354,6 +354,9 @@
     <!-- Shows the required view for in-display fingerprint -->
     <bool name="config_supportsInDisplayFingerprint">false</bool>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_supportSmartPixels">true</bool>
+
     <!-- Vowifi -->
     <bool name="config_hasVowifi">true</bool>
 </resources>
