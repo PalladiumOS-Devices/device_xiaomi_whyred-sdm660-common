@@ -354,4 +354,6 @@
     <!-- Shows the required view for in-display fingerprint -->
     <bool name="config_supportsInDisplayFingerprint">false</bool>
 
+    <!-- Vowifi -->
+    <bool name="config_hasVowifi">true</bool>
 </resources>
