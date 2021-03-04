@@ -195,7 +195,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     media.stagefright.thumbnail.prefer_hw_codecs=true \
     vendor.vidc.dec.enable.downscalar=1 \
     vendor.vidc.enc.disable_bframes=1 \
-    vendor.vidc.enc.disable.pq=true
+    vendor.vidc.enc.disable.pq=true \
+    ro.media.recorder-max-base-layer-fps=60
 
 # Netflix
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
