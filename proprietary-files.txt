@@ -585,3 +585,6 @@ vendor/lib64/libdlbdsservice.so|69f2a62245f93038cb03e6244ed0d4915e6c5084
 vendor/lib64/soundfx/libswdap.so|aea9b8a63c890f3cbd033cb8deb6caf9ab94afaf
 vendor/lib64/vendor.dolby.hardware.dms@1.0-impl.so|94cb93dcba41446af5784b598974600919d0104d
 vendor/lib64/vendor.dolby.hardware.dms@1.0.so|d30e9bc936a3aa864b8f65bb52095a0d2c628ad3
+
+system_ext/lib/vendor.qti.diaghal@1.0.so
+system_ext/lib64/vendor.qti.diaghal@1.0.so
