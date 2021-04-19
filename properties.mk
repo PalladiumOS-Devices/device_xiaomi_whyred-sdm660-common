@@ -258,10 +258,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
    ro.config.sdha_apps_bg_min=8 \
    ro.config.sdha_apps_bg_max=64
 
-# Seamless transfer
-PRODUCT_PROPERTY_OVERRIDES += \
-  sys.fflag.override.settings_seamless_transfer=true
-
 # USB debugging at boot
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp,adb \
