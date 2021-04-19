@@ -402,12 +402,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     TetheringConfigOverlay
 
-# Soong namespaces
-PRODUCT_SOONG_NAMESPACES += \
-    $(COMMON_PATH) \
-    hardware/google/interfaces \
-    hardware/google/pixel
-
 # Tetheroffload
 PRODUCT_PACKAGES += \
     ipacm \
