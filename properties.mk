@@ -257,10 +257,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
    ro.config.dha_th_rate=2.3 \
    ro.config.sdha_apps_bg_min=8 \
    ro.config.sdha_apps_bg_max=64
-
-# USB debugging at boot
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.usb.config=mtp,adb \
-    ro.adb.secure=0 \
-    ro.secure=0 \
-    ro.debuggable=1
