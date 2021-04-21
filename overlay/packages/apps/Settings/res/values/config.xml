@@ -16,7 +16,7 @@
     <bool name="config_show_selinux_status">true</bool>
 
     <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
+     <bool name="config_smartChargingAvailable">true</bool>
 
     <!-- Whether to use the mask for the quicksettings icons-->
     <bool name="config_useMaskForQs">true</bool>
