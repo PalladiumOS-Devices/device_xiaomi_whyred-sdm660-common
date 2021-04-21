@@ -33,9 +33,15 @@
         android:theme="@style/CustomOptionsTheme">
 
         <receiver
-            android:name=".BootReceiver">
-            <intent-filter android:priority="100" >
+            android:name=".BootReceiver"
+            android:defaultToDeviceProtectedStorage="true"
+            android:directBootAware="true"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.LOCKED_BOOT_COMPLETED" />
+
                 <category android:name="android.intent.category.DEFAULT" />
                 <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
             </intent-filter>
