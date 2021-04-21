@@ -262,4 +262,4 @@ tcp.support=1
 lkm.support=1
 cpucore.support=1
 spectrum.support=1
-persist.spectrum.kernel=-WALKERZ-EDITION--STRIX-EAS
+persist.spectrum.kernel=-WALKERZ-EDITION-ULTRA-Extended-EAS
