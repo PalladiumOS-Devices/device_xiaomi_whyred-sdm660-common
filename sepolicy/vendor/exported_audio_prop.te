@@ -1,0 +1,1 @@
+allow exported_audio_prop exported_audio_prop:file { read };
