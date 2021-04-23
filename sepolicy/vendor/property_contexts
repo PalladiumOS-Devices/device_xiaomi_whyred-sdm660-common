@@ -53,9 +53,6 @@ vendor.thermal.config                   u:object_r:vendor_thermal_prop:s0
 # Wlan
 persist.vendor.wigig.npt.enable         u:object_r:vendor_default_prop:s0
 
-# Dolby
-persist.vendor.dolby.loglevel                 u:object_r:vendor_dolby_loglevel_prop:s0
-
 # GPUboost
 persist.gpuboost.profile           u:object_r:gpuboost_prop:s0
 
