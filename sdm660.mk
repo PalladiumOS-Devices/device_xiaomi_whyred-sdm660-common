@@ -122,7 +122,8 @@ RELAX_USES_LIBRARY_CHECK := true
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor \
-    vendor.qti.hardware.btconfigstore@1.0.vendor
+    vendor.qti.hardware.btconfigstore@1.0.vendor \
+    vendor.qti.hardware.bluetooth_sar@1.0
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.device@3.5:64 \
