@@ -14,3 +14,8 @@ allow vendor_init proc:file w_file_perms;
 
 # Dirac
 allow vendor_init dirac_prop:property_service set;
+
+# Misc for xiaomiparts
+allow vendor_init cache_file:dir { search };
+allow vendor_init cpuboost_prop:file { read };
+allow vendor_init gpuboost_prop:file { read };
