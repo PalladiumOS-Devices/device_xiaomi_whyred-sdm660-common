@@ -541,3 +541,9 @@ vendor/lib64/libwvhidl.so|0466cd3b2a7b93efd23945e2637430513472ad7c
 # Misc
 vendor/lib64/libops.so
 vendor/lib64/libspl.so
+vendor/lib/libsecureui.so
+vendor/lib/libStDrvInt.so
+vendor/lib/libsecureui_svcsock.so
+vendor/lib64/libsecureui.so
+vendor/lib64/libStDrvInt.so
+vendor/lib64/libsecureui_svcsock.so
