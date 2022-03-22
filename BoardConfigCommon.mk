@@ -138,6 +138,9 @@ SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/private
 TARGET_SMARTCHARGE_CONTROL_NODE := "sys/class/power_supply/battery/input_suspend"
 TARGET_SMARTCHARGE_REVERSE_LOGIC := true
 
+# SurfaceFlinger
+TARGET_USE_AOSP_SURFACEFLINGER := true
+
 # Treble
 PRODUCT_FULL_TREBLE_OVERRIDE := true
 BOARD_VNDK_VERSION := current
