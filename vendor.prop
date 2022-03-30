@@ -108,6 +108,7 @@ vidc.enc.dcvs.extra-buff-count=2
 debug.media.codec2=2
 
 # Display
+debug.hwui.renderer=skiavk
 debug.sf.disable_backpressure=1
 debug.sf.hw=1
 debug.sf.latch_unsignaled=0
